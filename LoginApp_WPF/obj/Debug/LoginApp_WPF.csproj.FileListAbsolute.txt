@@ -1,0 +1,14 @@
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\bin\Debug\LoginApp_WPF.exe.config
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\bin\Debug\LoginApp_WPF.exe
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\bin\Debug\LoginApp_WPF.pdb
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\obj\Debug\LoginApp_WPF.csproj.AssemblyReference.cache
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\obj\Debug\LoginApp_WPF.csproj.SuggestedBindingRedirects.cache
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\obj\Debug\LoginApp_WPF.Form1.resources
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\obj\Debug\LoginApp_WPF.LoginScreen.resources
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\obj\Debug\LoginApp_WPF.Properties.Resources.resources
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\obj\Debug\LoginApp_WPF.csproj.GenerateResource.cache
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\obj\Debug\LoginApp_WPF.csproj.CoreCompileInputs.cache
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\obj\Debug\LoginApp_WPF.exe
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\obj\Debug\LoginApp_WPF.pdb
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\bin\Debug\Database1.mdf
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\LoginApp_WPF\bin\Debug\Database1_log.ldf
