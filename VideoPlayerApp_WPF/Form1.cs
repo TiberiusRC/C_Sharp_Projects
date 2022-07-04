@@ -57,18 +57,69 @@ namespace VideoPlayerApp_WPF
         }
 
         private void MediaPlayerStateChangeEvent(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
-        {
+        {   // Handles all the different states of the Mediaplayer ( Might be better as a switch ? )
+            if (e.newState == 0)
+            {
+                // undefined loaded
 
+                lblDuration.Text = "Video player is ready";
+            }
+            else if (e.newState == 1)
+            {
+                // if the video has stopped 
+
+                lblDuration.Text = "Video player has stopped";
+            }
+            else if (e.newState == 3)
+            {
+                // if the video is playing 
+
+                lblDuration.Text = "Duration: " + VideoPlayer.currentMedia.durationString;
+            }
+            else if (e.newState == 8)
+            {
+                // the video has ended here
+
+                if (currentFile >= filteredFiles.Count - 1)
+                {
+                    currentFile = 0;
+                }
+                else
+                {
+                    currentFile += 1;
+                }
+
+                Playlist.SelectedIndex = currentFile;
+
+                ShowFileName(FileName);
+
+            }
+            else if (e.newState == 9)
+            {
+                // if the video player is loading the next video
+                lblDuration.Text = "Loading new video";
+            }
+            else if (e.newState == 10)
+            {
+                // video player has reset
+                timer1.Start();
+
+            }
         }
 
         private void PlayListChanged(object sender, EventArgs e)
         {
-
+            //Shows the correct filename with the video.
+            currentFile = Playlist.SelectedIndex;
+            PlayFile(Playlist.SelectedItem.ToString());
+            ShowFileName(FileName);
         }
 
         private void TimerEvent(object sender, EventArgs e)
         {
-
+            //Plays the video and stops the timer.
+            VideoPlayer.Ctlcontrols.play();
+            timer1.Stop();
         }
         private void LoadPlayList()
         {
