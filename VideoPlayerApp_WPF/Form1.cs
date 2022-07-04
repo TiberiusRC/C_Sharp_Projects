@@ -16,5 +16,25 @@ namespace VideoPlayerApp_WPF
         {
             InitializeComponent();
         }
+
+        private void loadFolderEvent(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ShowAboutEvent(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MediaPlayerStateChangeEvent(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
+        {
+
+        }
+
+        private void PlayListChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
