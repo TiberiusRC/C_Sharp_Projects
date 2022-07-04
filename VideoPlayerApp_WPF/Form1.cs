@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace VideoPlayerApp_WPF
 {
@@ -33,6 +34,23 @@ namespace VideoPlayerApp_WPF
         }
 
         private void PlayListChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TimerEvent(object sender, EventArgs e)
+        {
+
+        }
+        private void LoadPlayList()
+        {
+
+        }
+        private void PlayFile(string url)
+        {
+
+        }
+        private void ShowFileName(Label name)
         {
 
         }

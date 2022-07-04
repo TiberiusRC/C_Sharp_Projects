@@ -1,0 +1,16 @@
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\bin\Debug\VideoPlayerApp_WPF.exe.config
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\bin\Debug\VideoPlayerApp_WPF.exe
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\bin\Debug\VideoPlayerApp_WPF.pdb
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\bin\Debug\Interop.WMPLib.dll
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\bin\Debug\AxInterop.WMPLib.dll
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\VideoPlayerApp_WPF.csproj.AssemblyReference.cache
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\VideoPlayerApp_WPF.csproj.SuggestedBindingRedirects.cache
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\Interop.WMPLib.dll
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\AxInterop.WMPLib.dll
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\VideoPlayerApp_WPF.csproj.ResolveComReference.cache
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\VideoPlayerApp_WPF.Form1.resources
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\VideoPlayerApp_WPF.Properties.Resources.resources
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\VideoPlayerApp_WPF.csproj.GenerateResource.cache
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\VideoPlayerApp_WPF.csproj.CoreCompileInputs.cache
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\VideoPlayerApp_WPF.exe
+F:\TR_REPO\C#_Projects_GIT\C_Sharp_Projects\VideoPlayerApp_WPF\obj\Debug\VideoPlayerApp_WPF.pdb
