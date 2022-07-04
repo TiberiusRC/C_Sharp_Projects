@@ -52,6 +52,7 @@ namespace VideoPlayerApp_WPF
 
         private void ShowAboutEvent(object sender, EventArgs e)
         {
+            MessageBox.Show("Made by RonaldC" + Environment.NewLine + "Done as practice for C# and WPF" + Environment.NewLine + "Click on Load Folder to load and play videos from your system");
 
         }
 
