@@ -49,7 +49,7 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1042, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1534, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -65,24 +65,24 @@
             // loadFolderToolStripMenuItem
             // 
             this.loadFolderToolStripMenuItem.Name = "loadFolderToolStripMenuItem";
-            this.loadFolderToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.loadFolderToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadFolderToolStripMenuItem.Text = "Load Folder";
             this.loadFolderToolStripMenuItem.Click += new System.EventHandler(this.loadFolderEvent);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.ShowAboutEvent);
             // 
             // Playlist
             // 
             this.Playlist.FormattingEnabled = true;
-            this.Playlist.Location = new System.Drawing.Point(847, 28);
+            this.Playlist.Location = new System.Drawing.Point(1150, 28);
             this.Playlist.Name = "Playlist";
             this.Playlist.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Playlist.Size = new System.Drawing.Size(195, 498);
+            this.Playlist.Size = new System.Drawing.Size(378, 498);
             this.Playlist.TabIndex = 2;
             this.Playlist.SelectedIndexChanged += new System.EventHandler(this.PlayListChanged);
             // 
@@ -98,7 +98,7 @@
             // lblDuration
             // 
             this.lblDuration.AutoSize = true;
-            this.lblDuration.Location = new System.Drawing.Point(844, 541);
+            this.lblDuration.Location = new System.Drawing.Point(1154, 541);
             this.lblDuration.Name = "lblDuration";
             this.lblDuration.Size = new System.Drawing.Size(56, 13);
             this.lblDuration.TabIndex = 4;
@@ -114,7 +114,7 @@
             this.VideoPlayer.Location = new System.Drawing.Point(3, 29);
             this.VideoPlayer.Name = "VideoPlayer";
             this.VideoPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("VideoPlayer.OcxState")));
-            this.VideoPlayer.Size = new System.Drawing.Size(841, 493);
+            this.VideoPlayer.Size = new System.Drawing.Size(1141, 493);
             this.VideoPlayer.TabIndex = 1;
             this.VideoPlayer.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.MediaPlayerStateChangeEvent);
             // 
@@ -122,7 +122,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1042, 572);
+            this.ClientSize = new System.Drawing.Size(1534, 563);
             this.Controls.Add(this.lblDuration);
             this.Controls.Add(this.FileName);
             this.Controls.Add(this.Playlist);
