@@ -49,10 +49,10 @@ namespace VideoPlayerApp_WPF
                 LoadPlayList();
             }
         }
-
+        //Shows a messagebox for the about item.
         private void ShowAboutEvent(object sender, EventArgs e)
         {
-            MessageBox.Show("Made by RonaldC" + Environment.NewLine + "Done as practice for C# and WPF" + Environment.NewLine + "Click on Load Folder to load and play videos from your system");
+            MessageBox.Show("Made by RonaldC" + Environment.NewLine + "Done as practice for C# and WPF" + Environment.NewLine + "Click on Load Folder to load and play videos from your system" + Environment.NewLine + "","About:");
 
         }
 
@@ -72,6 +72,26 @@ namespace VideoPlayerApp_WPF
         }
         private void LoadPlayList()
         {
+            //Creates a new playlist and displaying them in the Playlist box.
+            VideoPlayer.currentPlaylist = VideoPlayer.newPlaylist("Playlist", "");
+            foreach (string videos in filteredFiles)
+            {
+                VideoPlayer.currentPlaylist.appendItem(VideoPlayer.newMedia(videos));
+                Playlist.Items.Add(videos);
+            }
+            //See if there are playable files in the folder if yes ,sends them to the Playfile method.
+            if (filteredFiles.Count > 0)
+            {
+                FileName.Text = "Files present" + filteredFiles.Count;
+                Playlist.SelectedIndex = currentFile;
+                PlayFile(Playlist.SelectedItem.ToString());
+            }
+            else
+            {
+                MessageBox.Show("Could not find any video files in this folder.");
+            }
+
+
 
         }
         private void PlayFile(string url)
