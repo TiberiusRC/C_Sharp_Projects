@@ -94,12 +94,15 @@ namespace VideoPlayerApp_WPF
 
 
         }
+        
         private void PlayFile(string url)
-        {
-
+        {   //Takes the video and plays it. 
+            VideoPlayer.URL = url;
         }
         private void ShowFileName(Label name)
-        {
+        {   //Takes the filename from the current video and shows it.
+            string file = Path.GetFileName(Playlist.SelectedItem.ToString());
+            name.Text = "Currently playing : " + file;
 
         }
     }
